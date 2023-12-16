@@ -1,7 +1,7 @@
 /* 
  * File:   application.c
  * Author: Marwan nabil
- *
+ *linkedin: www.linkedin.com/in/marwan-nabil-30341b264
  * Created on december 12, 2023, 9:21 PM
  */
 #define _XTAL_FREQ 4000000UL
