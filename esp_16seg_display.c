@@ -195,6 +195,7 @@ digitalWrite(i, letter_Z_binary[15-i]);
 /************************************************************************************/
  void (*function_ptr[26])(void) = {letter_A, letter_B, letter_C,letter_D,letter_E,letter_F,letter_G,letter_H,letter_I,letter_J,letter_K,letter_L,letter_M,
  letter_N,letter_O,letter_P,letter_Q,letter_R,letter_S,letter_T,letter_U,letter_V,letter_W,letter_X,letter_Y,letter_Z};
+/*---- array of function pointers ----*/
 /************************************************************************************/
 
 void loop() {
