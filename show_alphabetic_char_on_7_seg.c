@@ -1,11 +1,11 @@
 #define pin_number 8
-#define buttonPin 8
+
 
 /*********************************/
 void setup() {
-  // Configure GPIO pins from GPIO0 to GPIO15 as output
+  
   for (int pin = 0; pin <= pin_number; pin++) {
-    pinMode(pin, OUTPUT); // gpio_8 is out we use it as a active low switch to stop program 
+    pinMode(pin, OUTPUT); 
   }
   
 }
@@ -207,5 +207,8 @@ void loop() {
   for(short y=0;y<26;y++){
     function_ptr[y] ();
     delay(2000);
+    for(short k=0;k<8;k++){
+        digitalWrite(k,0);
+    }
   }
 }
